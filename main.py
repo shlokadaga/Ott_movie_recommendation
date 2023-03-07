@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import requests
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 import gspread as gs
 import streamlit as st
